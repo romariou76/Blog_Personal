@@ -1,0 +1,37 @@
+.NavBar{
+    /* background: linear-gradient(rgba(5, 7, 12, 0.178) , rgba(5, 7, 12, 0.616)),
+      url(../images/fondo4.jpg) no-repeat center center;
+    background-size: cover; */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 2rem;
+    background-color: rgb(7, 7, 51);
+    color: #fff;
+}
+
+.logo h1{
+    background-color: rgb(7, 7, 51);
+}
+
+nav{
+    background-color: rgb(7, 7, 51);
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(7, 7, 51);
+    margin: 0 2rem;
+    color: rgba(255, 255, 255, 0.911);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
